@@ -10,12 +10,12 @@ public class Task3 {
         if (x == 1) {
             System.out.println("Вы ввели 1");
         }
-        if (x == 2) {
+        else if (x == 2) {
             System.out.println("Вы ввели 2");
         }
-        if (x == 3) {
+        else if (x == 3) {
             System.out.println("Вы ввели 3");
-        } else {
+        } else  {
             System.out.println("Неверно");
         }
     }
